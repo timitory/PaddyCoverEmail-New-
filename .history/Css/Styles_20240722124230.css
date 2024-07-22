@@ -19,7 +19,7 @@ div,
 p {
     font-family: Arial, sans-serif;
     /* border:1px solid black;  */
-    /* margin: 0;
+    margin: 0;
     padding: 0;
     border-collapse: collapse;
 }
@@ -275,4 +275,4 @@ button > h3 {
 .contact h4:nth-child(3){
     padding-top: 0.5rem;
     cursor: pointer;
-}  */ 
+} */

@@ -10,368 +10,87 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-        <link href="https://fonts.cdnfonts.com/css/avenir" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="../Css/Styles.css">
+    <link href="https://fonts.cdnfonts.com/css/avenir" rel="stylesheet">
 
     <title> Email Template</title>
-    <style>
-    @font-face {
-    font-family: 'Avenir Next';
-    src: 
-        url('../fonts/AvenirNextCyr-Bold.woff') format('woff')
-        url(  '../fonts/AvenirNextCyr-Demi.woff') format('woff')
-        url('../fonts/AvenirNextCyr-BoldItalic.woff') format('woff')
-        url('../fonts/AvenirNextCyr-Heavy.woff') format('woff')
-        url('../fonts/AvenirNextCyr-Light.woff') format('woff')
-        url('../fonts/AvenirNextLTPro-Bold.otf') format('otf')
-        url('../fonts/AvenirNextCyr-UltraLight.woff') format('woff')
-      
-}
-
-table,
-tr,
-th,
-td,
-div,
-p {
-    font-family: Arial, sans-serif;
-    /* border:1px solid black;  */
-    margin: 0;
-    padding: 0;
-    border-collapse: collapse;
-}
-
-
-body{
-    margin: 0;
-    padding: 0;
-    background-color: rgb(241, 237, 237);
-    font-family: 'Avenir Next',sans-serif;
-}
-.header{
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 705px;
-    justify-content: center;
-}
-
-hr{
-    width: 618px;
-   opacity: 0.5;
-}
-.section{
-    margin: 0 auto;
-    width: 705px;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
-    font-family: 'Avenir Next', sans-serif;
-
-}
-.section1{
-    background: white;
-    border-radius: 18px;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    padding-left: 2rem;
-    text-wrap: wrap;
-    line-height: 3rem;
-    color: black;
-    font-family: 'Avenir Next', sans-serif;
-    
-}
-.section1>h4{
-    font-family: 'Poppins';
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 35px;
-    text-align: left;
-    width: 573px;
-    font-family: 'Avenir Next', sans-serif;
-    
-}
-.section1>h1{
-    font-family: 'Poppins';
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 30px;
-    text-align: left;
-
-}
-span{
-    font-family: 'Poppins';
-    font-size: 20px;
-    font-weight: 800;
-    line-height: 30px;
-    text-align: left;
-}
-.section2 {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    width: 706px;
-    background-color: white;
-    border-radius: 24px;
-    margin-bottom: 2rem;
-    filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
-}
-
-.section22 {
-    display: flex;
-    flex-direction: column;
-    padding-top: 2rem;
-    padding-left: 2rem;
-    padding-bottom: 2rem;
-    font-family: 'Avenir Next', sans-serif;
-                                                
-}
-
-.text1 {
-    width: 281px;
-    font-family: 'Avenir Next', sans-serif;                                     
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 39px;
-    text-align: left;
-
-}
-
-.text2 {
-    width: 240.78px;
-    color: #0F2217;
-   font-family: 'Avenir Next', sans-serif;
-                                                
-}
-
-.text2 > p {
-    font-family: 'Avenir Next', sans-serif;
-    letter-spacing: 0.025em;                     
-    font-size: 14px;
-    font-weight: 200;
-    line-height: 24px;
-    text-align: left;
-}
-
-.text1 > h1 {
-    font-family: 'Avenir Next',sans-serif;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 39px;
-    text-align: left;
-}
-
-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.3rem;
-    background: #3E4095;
-    width: 144px;
-    border-radius: 10px;
-    border: #3E4095;
-    color: white;
-    padding: 0.5rem;
-    margin-top: 1rem;
-    margin-bottom: 1.5rem;
-    cursor: pointer;
-}
-
-button > h3 {
-    font-family: 'Avenir Next',sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 7px;
-    text-align: center;
-}
-
-.sec {
-    display: flex;
-    position: relative;
-    margin-top: auto; 
-    justify-content: flex-end; 
-}
-
-.sec h1 {
-    position: absolute;
-}
-
-.sec h1:nth-child(1) {
-    z-index: 1;
-    bottom: 48px;
-    right: 107px;
-}
-
-.sec h1:nth-child(2) {
-    z-index: 2;
-    bottom: -58px;
-    right: 15px;
-}
-
-.sec h1:nth-child(3) {
-    z-index: 3;
-    bottom: -63px;
-    right: 0;
-    filter: grayscale(100%);
-}
-
-.section3 {
-    display: flex;
-    margin: 0 auto;
-    width: 706px;
-    background: var(--Paddycover-Blue, #3E3F94);
-    border-radius: 24px;
-    margin-bottom: 2rem;
-    padding-bottom: 3rem;
-    color: white;
-    padding: 0rem 1rem; 
-    filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
-    font-family: 'Avenir Next', sans-serif;
-}
-
-.section33 {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start; 
-    padding-bottom: 2.5rem;
-}
-
-.section33text {
-    width: 50%;
-    padding-left: 1rem;
-}
-
-.section33text h1 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 42px;
-    margin-bottom: 0.5rem;
-}
-
-.section33text h4 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 20px;
-}
-
-.images {
-    display: flex;
-    margin-top: 1rem;
-    cursor: pointer; 
-}
-
-.images img {
-    margin-right: 1.5rem;
-    padding-right: 1rem;
-}
-
-.contact {
-    width: 50%;
-    text-align: left; 
-    padding-left: 2rem;
-}
-
-.contact h1 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 42px;
-    margin-bottom: 0.5rem;
-}
-
-.contact h4 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 20px;
-}
-.contact h4:nth-child(3){
-    padding-top: 0.5rem;
-    cursor: pointer;
-}
-
-
-    </style>
-    
 </head>
 
-        <body>
-            <div class="container">
-                <table class="header">
-                    <tr class="header">
-                <td class="header">
-                    <img src="https://res.cloudinary.com/dqoyaafax/image/upload/v1721729788/Logoimage_zqozus.png" alt="">
-                    <hr>
-                    
+<body style="margin: 0; padding: 0; background-color: rgb(241, 237, 237); font-family: 'Avenir Next', sans-serif;">
+
+    <div class="container">
+        <div class="container">
+            <table class="header" style="margin: 0 auto; width: 100%; text-align: center;">
+                <tr class="header">
+                    <td>
+                        <img src="https://res.cloudinary.com/dqoyaafax/image/upload/v1721729788/Logoimage_zqozus.png" alt="" style="display: block; margin: 0 auto;margin-bottom: 1rem;">
+                        <hr style="width: 618px; margin: 0 auto; opacity: 0.5;">
+                    </td>
+                </tr>
+            </table>
+
                 </td>
             </tr>
-            </table>
-                
-                <table class="section">
-                    <td class="section1">
-                        <h1>Thank You For Choosing Us</h1>
-                        <h4>
-                            We acknowledge receipt of payment for your Provisional Third Party Vehicle Insurance. <br>
-                            Please be informed that the Insurance Certificate will be <br> issued when inspection/ verification of the registered vehicle is carried out within 72 hours. 
-                            Kindly sign in on our website and view your policy details online: <br>
-                            Policy Number: <br>
-                            Monthly Premium Paid (In Naira): {{monthly_premium}} <br>
-                            Duration of Cover: 365  <br>
-                            Policy Expiration Date: {{policy_expiry}}  <br>
-                            Thank you, <br>
-                            PaddyCover.
-                           
+        </table> 
+        <table style="position: relative; display: flex; flex-direction: column; margin: 0 auto; width: 706px; background-color: white; border-radius: 24px;margin-top: 2rem; margin-bottom: 2rem; filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));">
+            <tr style="display: flex; flex-direction: column; padding-top: 2rem; padding-left: 2rem; padding-bottom: 2rem; font-family: 'Avenir Next', sans-serif;">
+                <td>
+                    <h1 style="font-size: 36px; font-weight: 700; line-height: 30px; text-align: left;">Thank You For Choosing Us</h1>
+                    <h4 style="font-size: 20px; font-weight: 400; line-height: 35px; text-align: left; width: 573px;">We acknowledge receipt of payment for your Provisional Third Party Vehicle Insurance. <br> Please be informed that the Insurance Certificate will be <br> issued when inspection/ verification of the registered vehicle is carried out within 72 hours. <br> Kindly sign in on our website and view your policy details online: <br> Policy Number: <br> Monthly Premium Paid (In Naira): {{monthly_premium}} <br> Duration of Cover: 365 <br> Policy Expiration Date: {{policy_expiry}} <br> Thank you, <br> PaddyCover.</h4>
+                </td>
+            </tr>
+        </table>
 
+        <table style="position: relative; display: flex; flex-direction: column; margin: 0 auto; width: 706px; background-color: white; border-radius: 24px; margin-bottom: 2rem; filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));">
+            <tr style="display: flex; flex-direction: column; padding-top: 2rem; padding-left: 2rem; padding-bottom: 2rem; font-family: 'Avenir Next', sans-serif;">
+                <td class="text1" style="width: 281px; font-size: 40px; font-weight: 700; line-height: 39px; text-align: left;">Pay as you go insurance you control.</td>
+                <td class="text2" style="width: 240.78px; color: #0F2217; font-size: 14px; font-weight: 200; line-height: 24px; text-align: left;">
+                    <p>You can use PaddyCover to get weekly Car Insurance from as low as N150 per week OR Health Insurance as low as N3500 per month.</p>
+                </td>
+                <td>
+                    <button style="display: flex; align-items: center; justify-content: center; gap: 0.3rem; background: #3E4095; width: 144px; border-radius: 10px; border: #3E4095; color: white; padding: 0.5rem; margin-top: 1rem; margin-bottom: 1.5rem; cursor: pointer;">
+                        <h3 style="font-size: 14px; font-weight: 600; line-height: 7px; text-align: center;">Get Cover</h3>
+                        <img src="https://res.cloudinary.com/dqoyaafax/image/upload/v1721738918/Group_hzj7s6.png" alt="">
+                        <img src="https://res.cloudinary.com/dqoyaafax/image/upload/v1721738918/Group_hzj7s6.png" alt="">
+                    </button>
+                </td>
+            </tr>
+            <tr class="sec" style="display: flex; position: relative; margin-top: auto; justify-content: flex-end;">
+                <td>
+                    <h1 style="position: absolute;z-index: 1;
+                    bottom: 48px;
+                    right: 107px;"><img src="https://res.cloudinary.com/dqoyaafax/image/upload/v1721729827/litle-tree-gOQmsGhhEm_xl6qdy.png" alt=""></h1>
+                    <h1 style="position: absolute;z-index: 2;
+                    bottom: -58px;
+                    right: 15px;"><img src="https://res.cloudinary.com/dqoyaafax/image/upload/v1721729868/car-animation-VJetYI7Jdq_itvqoe.png" alt=""></h1>
+                    <h1 style="position: absolute;z-index: 3;
+                    bottom: -63px;
+                    right: 0;
+                    filter: grayscale(100%);"><img src="https://res.cloudinary.com/dqoyaafax/image/upload/v1721729854/Clip_path_group_mmqljo.png" alt="" class="opaq"></h1>
+                </td>
+            </tr>
+        </table>
 
-                            </h4>
-                    </td>
-                </table>
-                <table class="section2">
-                    <tr class="section22">
-                        <td class="text1"><h1>Pay as you go insurance you control.</h1></td>
-                        <td class="text2"><p>You can use PaddyCover to get weekly Car Insurance from as low as N150 per week OR Health Insurance as low as N3500 per month.</p></td>
-                        <td><button>
-                            <h3>Get Cover</h3>
-                             <img src="../assets/icons/Group.png" alt="">
-                             <img src="../assets/icons/Group.png" alt="">
-                            </button>
-                        </td>
-                    </tr>
-                    <tr class="sec">
-                        <td>
-                            <h1><img src="https://res.cloudinary.com/dqoyaafax/image/upload/v1721729827/litle-tree-gOQmsGhhEm_xl6qdy.png" alt=""></h1>
-                            <h1><img src="https://res.cloudinary.com/dqoyaafax/image/upload/v1721729868/car-animation-VJetYI7Jdq_itvqoe.png" alt=""></h1>
-                            <h1><img src="https://res.cloudinary.com/dqoyaafax/image/upload/v1721729854/Clip_path_group_mmqljo.png" alt="" class="opaq"></h1>
-                        </td>
-                    </tr>
-                  
-                </tr>
-                </table>
-                <table class="section3">
-                    <tr class="section33">
-                        <td class="section33text">
-                            <h1>Follow Us.</h1>
-                            <h4>Let us know if you need anything at paddycover.com or reply to this email.</h4>
-                            <div class="images">
-                                <img src="https://res.cloudinary.com/dqoyaafax/image/upload/v1721730121/Framer_biz5io.png" alt="">
-                                <img src="https://res.cloudinary.com/dqoyaafax/image/upload/v1721730121/Frame_bdq9s1.png" alt="">
-                                <img src="https://res.cloudinary.com/dqoyaafax/image/upload/v1721730264/Frame_1_m4v9gg.png" alt="">
-                                <img src="https://res.cloudinary.com/dqoyaafax/image/upload/v1721730121/Frame_2_likpjj.png" alt="">
-                            </div>
-                        </td>
-                        <td class="contact">
-                            <h1>Contact Us.</h1>
-                            <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h4>
-                            <h4>Click here to unsuscribe</h4>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-        </body>
-        <script>
-        </script>
+        <table class="section3" style="display: flex; margin: 0 auto; width: 706px; background: var(--Paddycover-Blue, #3E3F94); border-radius: 24px; margin-bottom: 2rem; padding-bottom: 3rem; color: white; padding: 0rem 1rem; filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15)); font-family: 'Avenir Next', sans-serif;">
+            <tr class="section33" style="display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 2.5rem;">
+                <td class="section33text" style="width: 50%; padding-left: 1rem;">
+                    <h1 style="font-size: 36px; font-weight: 700; line-height: 42px; margin-bottom: 0.5rem;">Follow Us.</h1>
+                    <h4 style="font-size: 12px; font-weight: 400; line-height: 20px;">Let us know if you need anything at paddycover.com or reply to this email.</h4>
+                    <div class="images" style="display: flex; margin-top: 1rem; cursor: pointer;">
+                        <img src="https://res.cloudinary.com/dqoyaafax/image/upload/v1721730121/Framer_biz5io.png" alt="" style="margin-right: 1.5rem;padding-right: 1rem;">
+                        <img src="https://res.cloudinary.com/dqoyaafax/image/upload/v1721730121/Frame_bdq9s1.png" alt=""  style="margin-right: 1.5rem;padding-right: 1rem;">
+                        <img src="https://res.cloudinary.com/dqoyaafax/image/upload/v1721730264/Frame_1_m4v9gg.png" alt=""  style="margin-right: 1.5rem;padding-right: 1rem;">
+                        <img src="https://res.cloudinary.com/dqoyaafax/image/upload/v1721730121/Frame_2_likpjj.png" alt=""  style="margin-right: 1.5rem;padding-right: 1rem;">
+                    </div>
+                </td>
+                <td class="contact" style="width: 50%; text-align: left; padding-left: 2rem;">
+                    <h1 style="font-size: 36px; font-weight: 700; line-height: 42px; margin-bottom: 0.5rem;">Contact Us.</h1>
+                    <h4 style="font-size: 12px; font-weight: 400; line-height: 20px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h4>
+                    <h4 style="font-size: 12px; font-weight: 400; line-height: 20px; padding-top: 0.5rem; cursor: pointer;">Click here to unsuscribe</h4>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+
 </html>
